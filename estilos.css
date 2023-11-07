@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(222, 219, 219);
+  
+   /*
+   margin: 0;
+   max-width: 1200px; */
+    
+}
+
+.principal {
+    position: relative; 
+    overflow:auto;
+     
+}
+.principal img{
+    width: 100%;
+}
+
+.menu{
+    position: absolute;  
+    top: 50px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size:25px;
+    gap: 30px;
+}
+
+.cajamovible {
+    width: 130px;
+    height: 70px;
+    border-radius: 40%;
+    background-color: rgb(163, 158, 129,0.4);
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 2%;
+    list-style-type: none;
+}
+
+.cajamovible li a {
+    color:black;
+}
+
+a {
+    color: white;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3em; 
+}
+
+#descripcion p {
+    font-size:1.5em ;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+}
+
+#caracteristicas table {
+    font-size:1.3em ;
+    margin-left: 2.5%;
+    margin-right: 2.5%;   
+}
+
+table td {
+    padding: 15px;
+}
+
+table tr:hover {
+    background: rgb(244, 230, 230);
+}
+
+#fotos img {
+    width:400px;
+    height:400px;
+    margin: 30px;;
+}
+
+
